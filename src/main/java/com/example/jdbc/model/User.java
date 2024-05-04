@@ -10,7 +10,8 @@ public class User {
     public User() {}
 
     public User(int price, int code, String name, String branch, String description) {
-        super();
+        this.price = price;
+        this.code = code;
         this.name = name;
         this.branch = branch;
         this.description = description;

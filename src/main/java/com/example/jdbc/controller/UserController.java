@@ -58,7 +58,7 @@ public class UserController extends HttpServlet {
             showAllUser(req, resp);
         }
         else {
-            int pỉce = Integer.parseInt(req.getParameter("price"));
+            int price = Integer.parseInt(req.getParameter("price"));
             int code = Integer.parseInt(req.getParameter("code"));
             String name = req.getParameter("name");
             String branch = req.getParameter("branch");
